@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.content{
+  height: 100vh;
+}
+.navbar{
+  background-color:rgb(138, 124, 124) !important ;
+}
+.register-page{
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+/*TRANSACTION PAGE*/
+.filters{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  box-shadow: 0 0 3px gray;
+}
+
+
+/*TRANSACTION PAGE*/
+
+/* //ANTD ICONS */
+.switch-icons{
+  border: 1px solid rgba(0,0,0,0.667);
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+.anticon svg{
+  font-size: 15px;
+  cursor: pointer;
+}
+.active-icon{
+  color: black;
+}
+.inactive-icon{
+  color: red;
+}
