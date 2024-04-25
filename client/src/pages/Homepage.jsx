@@ -17,7 +17,7 @@ const Homepage = () => {
   const [selectedDate, setSelectedDate] = useState([]);
   const [type, setType] = useState("all");
   const [viewData, setViewData] = useState("table");
-  const [editable, setEditable] = useState('  ')
+  const [editable, setEditable] = useState('')
   //TABLE DATA
   const colums = [
     {
